@@ -44,7 +44,9 @@ Mat fastMeanBlur(Mat img, Size winSize, int borderType=BORDER_CONSTANT, Scalar v
         r++;
         c = 0;
     }
-    meanImg.convertTo(meanImg, CV_32FC1, 1 / 255.0, 0);     // 注意将数字除以255.0，否则输出的图像为白色。
+    // 对于float型图像（矩阵），imshow()将用256乘以每个元素再显示，输出的图像将变为白色。因此，为了正确显示，需要将float矩阵转换成uchar矩阵。
+    meanImg.convertTo(meanImg, CV_8UC1);
+    // 或使用： meanImg.convertTo(meanImg, CV_32FC1, 1 / 256.0, 0);
     return meanImg;
 }
 
