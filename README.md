@@ -8,9 +8,9 @@
 
 ❤️ By dddwj @2019.5
 
-- [Experiment1 - Hello,OpenCV!](https://github.com/dddwj/LearnOpenCV/tree/master/exp1)  OpenCV配置与初步认识
+- [Experiment1 - Hello,OpenCV!](https://github.com/dddwj/LearnOpenCV/tree/master/exp1)   OpenCV配置与初步认识
 
-- [Experiment2 - WarpAffine & Projection]([exp2](https://github.com/dddwj/LearnOpenCV/tree/master/exp2)) 图像的几何变换
+- [Experiment2 - WarpAffine & Projection](https://github.com/dddwj/LearnOpenCV/tree/master/exp2)  图像的几何变换
 
 - [Experiment3 - CV Image Contrast Enhancement](https://github.com/dddwj/LearnOpenCV/tree/master/exp3)  图像对比度增强
 - [Experiment4 - CV Image Smoothing Techniques](https://github.com/dddwj/LearnOpenCV/tree/master/exp4)  图像平滑
