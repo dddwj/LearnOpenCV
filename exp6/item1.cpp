@@ -18,7 +18,7 @@ Mat D;
 
 // 回调函数，调节r
 void callBack(int, void *){
-    // 创建只有垂直方向的矩形结构元
+    // 创建矩形结构元
     Mat s = getStructuringElement(MORPH_RECT, Size(2 * r + 1, 2 * r + 1));
     // 膨胀操作
     dilate(I, D, s);
